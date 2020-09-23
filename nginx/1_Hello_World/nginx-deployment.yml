@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   # Unique key of the Deployment instance
-  name: deployment-example
+  name: nginx-deployment-hello-world
 spec:
   # 1 Pods should exist at all times.
   replicas: 1
