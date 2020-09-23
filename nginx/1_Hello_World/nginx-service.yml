@@ -9,6 +9,7 @@ spec:
     - name: http
       port: 80
       targetPort: 80
+      nodePort: 32000
   selector:
     # Loadbalance traffic across Pods matching
     # this label selector
