@@ -17,4 +17,4 @@ spec:
   # Create an HA proxy in the cloud provider
   # with an External IP address - *Only supported
   # by some cloud providers*
-  type: LoadBalancer
+  type: NodePort
